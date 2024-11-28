@@ -1,0 +1,19 @@
+{
+  "name": "express-plate",
+  "version": "1.0.0",
+  "main": "bin/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yash Jayant",
+  "license": "ISC",
+  "description": "This is an Express Bolierplate Generator",
+  "bin": {
+    "plate": "./bin/index.js"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "inquirer": "^8.2.6"
+  }
+}
